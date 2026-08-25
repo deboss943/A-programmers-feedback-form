@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Programmers Feedback</title>
+  </head>
+
+  <body>
+    <h1 id="title">Programmers Feedback</h1>
+
+    <p id="description">
+      This feedback is for all programmers
+    </p>
+
+    <form id="survey-form">
+
+      <label id="name-label" for="name">Name</label>
+      <input
+        id="name"
+        type="text"
+        name="name"
+        placeholder="Example name"
+        required
+      />
+
+      <label id="email-label" for="email">Email</label>
+      <input
+        id="email"
+        type="email"
+        name="email"
+        placeholder="exampleemail@email.com"
+        required
+      />
+
+      <label id="number-label" for="number">Age</label>
+      <input
+        id="number"
+        type="number"
+        name="age"
+        min="10"
+        max="100"
+        placeholder="10"
+      />
+
+      <label for="dropdown">Programming Level</label>
+      <select id="dropdown" name="programming-level">
+        <option value="beginner">Beginner</option>
+        <option value="intermediate">Intermediate</option>
+        <option value="advanced">Advanced</option>
+        <option value="expert">Expert</option>
+      </select>
+
+      <p>Programming Language</p>
+
+      <label>
+        <input type="radio" name="language" value="html" />
+        HTML
+      </label>
+
+      <label>
+        <input type="radio" name="language" value="css" />
+        CSS
+      </label>
+
+      <label>
+        <input type="radio" name="language" value="javascript" />
+        JavaScript
+      </label>
+
+      <label>
+        <input type="radio" name="language" value="python" />
+        Python
+      </label>
+
+      <label>
+        <input type="radio" name="language" value="java" />
+        Java
+      </label>
+
+      <label>
+        <input type="radio" name="language" value="cpp" />
+        C++
+      </label>
+
+      <label>
+        <input type="radio" name="language" value="csharp" />
+        C#
+      </label>
+
+      <label>
+        <input type="radio" name="language" value="php" />
+        PHP
+      </label>
+
+      <label>
+        <input type="radio" name="language" value="sql" />
+        SQL
+      </label>
+
+      <label>
+        <input type="radio" name="language" value="typescript" />
+        TypeScript
+      </label>
+
+      <label>
+        <input type="radio" name="language" value="ruby" />
+        Ruby
+      </label>
+
+      <label>
+        <input type="radio" name="language" value="go" />
+        Go
+      </label>
+
+      <p>Which technologies are you interested in?</p>
+
+      <label>
+        <input type="checkbox" name="technology" value="react" />
+        React
+      </label>
+
+      <label>
+        <input type="checkbox" name="technology" value="nodejs" />
+        Node.js
+      </label>
+
+      <label>
+        <input type="checkbox" name="technology" value="angular" />
+        Angular
+      </label>
+
+      <label>
+        <input type="checkbox" name="technology" value="vue" />
+        Vue.js
+      </label>
+
+      <label>
+        <input type="checkbox" name="technology" value="django" />
+        Django
+      </label>
+
+      <p>Additional Comments</p>
+
+      <textarea
+        id="comments"
+        name="comments"
+        rows="5"
+        cols="30"
+        placeholder="Enter your comments here..."
+      ></textarea>
+
+      <br /><br />
+
+      <button id="submit" type="submit">Submit</button>
+
+    </form>
+  </body>
+</html>
